@@ -1,0 +1,30 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class UserName {
+
+	public static void main(String[] args) 
+	{
+		String FirstName, LastName;
+		Random generator = new Random();
+		int random;
+		int min=10;
+		int max=99;
+		
+		Scanner scan= new Scanner(System.in);
+		System.out.println("What is your First Name?");
+		
+		FirstName = scan.nextLine();
+		
+		System.out.println("Thank you, what is your Last Name? ");
+		LastName = scan.nextLine();
+		
+		random = generator.nextInt();
+		random random.nextInt(max-min); //FIX THIS AFTER READING
+		
+		System.out.println("Your new code is "+FirstName + LastName + random);
+		
+
+	}
+
+}
