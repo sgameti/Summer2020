@@ -8,6 +8,7 @@ public class Lab3EvenNumSum {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number greater than 2");
 		num = scan.nextInt();
+		// makes sure user enters a number greater than 2
 		if(num<2)
 		{
 			System.out.println(" I said a number greater than 2 \n try agian");
