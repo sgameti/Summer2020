@@ -31,11 +31,9 @@ public class lab3Box
 	{
 		lab3Box myBox = new lab3Box();
 
-	//change the number rows '.' operator
+	//change the number rows and *
 
 	myBox.size = 10;
-
-	//invoke the printBox method
 
 	myBox.printBox();
 
