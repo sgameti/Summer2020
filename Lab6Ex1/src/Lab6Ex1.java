@@ -18,4 +18,3 @@ public class Lab6Ex1 {
 		System.out.println("Sum is: " + simpleTime(n));
 	}
 }
-// TODO Auto-generated method stub
